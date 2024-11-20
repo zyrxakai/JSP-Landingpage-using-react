@@ -14,6 +14,7 @@ import {
     framer,
     homeSmile,
     instagram,
+    youtube,
     jsp,
     notification2,
     notification3,
@@ -82,9 +83,9 @@ import {
   export const companyLogos = [jsp];
   
   export const brainwaveServices = [
-    "Skill-Based Suggestions",
-    "Career Path Guidance",
-    "Resume Generation",
+    "Learn: Users gain essential skills through tailored courses, upskilling advice, and mentorship. AI agents suggest content based on market trends, helping users stay competitive.",
+    "Do: Users apply skills via automation and project tools, enhancing job applications, client work, and projects. The AI handles admin tasks, letting users focus on impactful work.",
+    "Lead: Entrepreneurs get tools for scaling, customer tracking, and financial analysis, while job seekers and freelancers gain career insights for confident leadership.",
   ];
   
   export const brainwaveServicesIcons = [
@@ -98,27 +99,27 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "What is Job Sync Pros",
-      text: "JobSyncPros stands out by integrating job aggregation, personalized job search, advanced resume features, and community-driven networking capabilities into one platform. It goes beyond traditional job boards and professional networking sites by offering a holistic career management experience, fostering community engagement, and leveraging advanced technology to connect job seekers with opportunities more effectively.",
+      title: "Skill Gap Analysis",
+      text: "The AI agents analyze users’ profiles, identify skill gaps relative to their desired roles or industry standards, and prioritize learning areas that will have the most immediate impact on their career.",
       imageUrl: jsp,
       colorful: true,
     },
     {
       id: "1",
-      title: "For Job Seekers",
-      text: "Individuals seeking full-time, part-time, freelance, or gig work, and those looking for comprehensive career management tools.",
+      title: "Market-Driven Recommendations",
+      text: " By continuously tracking in-demand skills in real-time across job listings and industry reports, JobSyncPros' AI ensures users receive up-to-date course recommendations that align with emerging trends.",
       imageUrl: jobseeker,
     },
     {
       id: "2",
-      title: "For Employees",
-      text: "Companies and recruiters looking for a streamlined platform to post job listings, track applicants, and engage with potential candidates.",
+      title: "Adaptive Learning Paths",
+      text: "Recommendations adjust dynamically as users complete courses or gain new experience. If a skill set shifts or users progress more quickly in certain areas, the AI adapts, suggesting new topics that match their evolving expertise.",
       imageUrl: employee1,
     },
     {
       id: "3",
-      title: "Business Model",
-      text: "JobSyncPros operates on a freemium model with both free and premium features. Job seekers can access basic job search and application features for free, while premium subscriptions offer advanced features such as personalized career coaching, detailed analytics, and enhanced portfolio options. Employers can post job listings and access premium recruitment tools, including targeted job ad placements and advanced applicant tracking features.",
+      title: "Collaborative Learning Suggestions",
+      text: " Through its Swarm framework, JobSyncPros also recommends popular courses validated by the community, giving users confidence in high-quality, relevant options.",
       imageUrl: buisness,
     },
   ];
@@ -240,16 +241,16 @@ import {
   export const benefits = [
     {
       id: "0",
-      title: "Advanced Job Aggregation",
-      text: "Aggregates job listings from niche job sites (Jobs2caree, CareerJET), and industry-specific platforms. Includes freelance and gig work opportunities alongside traditional full-time roles.",
+      title: "AI-Powered Automation Agents for Freelancers and Job Seekers",
+      text: "AI recommends jobs based on skills and experience, tailoring resumes and cover letters for higher application success. Provides insights on in-demand skills, job trends, and salaries to guide career choices.For freelancers, AI curates portfolios using project data.",
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: jsp,
     },
     {
       id: "1",
-      title: "Career Analytics and Insights",
-      text: "Provides data-driven insights on job search performance, including profile views and application success rates. Offers tools to benchmark salaries and understand market trends.",
+      title: "Entrepreneurial and Small Business Tools",
+      text: "Automates client communication, follow-ups, and reminders.Generates invoices and tracks payments, with integration for quick transactions.Supports automated lead scoring and tracking through HubSpot API, boosting client acquisition and retention.",
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: jsp,
@@ -257,16 +258,16 @@ import {
     },
     {
       id: "2",
-      title: "Soft Skills and Personality Assessments",
-      text: "Offers assessments to evaluate and showcase soft skills like communication and leadership. Suggests jobs based on personality assessments and career preferences.",
+      title: "Entrepreneurial and Small Business Tools",
+      text: "Analyzes market trends and competition, offering customer profiles for idea validation. Automates lead generation and customer outreach to enhance sales. AI templates and guidance support effective business planning and pitching.",
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: jsp,
     },
     {
       id: "3",
-      title: "Real-Time Application Tracking and Notifications",
-      text: "Allows job seekers to track the status of their applications across different platforms. Sends automated reminders for follow-ups and application updates.",
+      title: "Personalized Learning Paths and Upskilling Suggestions",
+      text: "AI identifies skill gaps and suggests relevant courses.Suggests content based on user progress and industry needs for personalized growth.AI mentors offer feedback on interviews, presentations, and career-building efforts.",
       backgroundUrl: "./src/assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: jsp,
@@ -274,8 +275,8 @@ import {
     },
     {
       id: "4",
-      title: "Networking and Community Building",
-      text: "Allows job seekers to request referrals from their network directly on the platform.Hosts virtual events to connect job seekers with industry professionals and recruiters.Creates communities and job-related groups",
+      title: "Comprehensive AI-Powered Analytics and Reporting",
+      text: "Monitors learning and application outcomes, helping users identify focus areas.Provides small businesses with financial insights and performance tracking.Alerts businesses to customer satisfaction levels for continuous improvement.",
       backgroundUrl: "./src/assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: jsp,
@@ -283,7 +284,7 @@ import {
     {
       id: "5",
       title: "Unified Application Process",
-      text: "Offers a unified application process to apply across multiple job boards from one central platform. Automatically fills out application forms using saved information, streamlining the application process.",
+      text: "One-Click Apply: Offers a unified application process to apply across multiple job boards from one central platform.Pre-Filled Forms: Automatically fills out application forms using saved information, streamlining the application process level.",
       backgroundUrl: "./src/assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: jsp,
@@ -294,31 +295,31 @@ import {
     {
       id: "0",
       title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
+      iconUrl: youtube,
+      url: "https://www.youtube.com/@JobSyncPros",
     },
-    {
-      id: "1",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "#",
-    },
+    // {
+    //   id: "1",
+    //   title: "Twitter",
+    //   iconUrl: twitter,
+    //   url: "#",
+    // },
     {
       id: "2",
       title: "Instagram",
       iconUrl: instagram,
-      url: "#",
+      url: "https://www.instagram.com/jobsyncpros?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     },
-    {
-      id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
-    },
-    {
-      id: "4",
-      title: "Facebook",
-      iconUrl: facebook,
-      url: "#",
-    },
+    // {
+    //   id: "3",
+    //   title: "Telegram",
+    //   iconUrl: telegram,
+    //   url: "#",
+    // },
+    // {
+    //   id: "4",
+    //   title: "Facebook",
+    //   iconUrl: facebook,
+    //   url: "#",
+    // },
   ];
